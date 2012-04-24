@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <UINavigationControllerDelegate>
 
 @property (strong, nonatomic) id detailItem;
 
